@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>Curso de HTML e CSS Básico - HTML e CSS Pro</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/fontawesome-all.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+
+  </head>
+
+  <body>
+
+  <!------- START / HEADER --------->
+	<header class="header">
+		<div class="content">
+			<div class="logo fl-left">
+				<a href="#">
+					<img src="imagens/logo.png" alt="Site Cube"/>
+				</a>
+			</div>
+			<a href="#" class="nav-toggle fl-right">
+				<i class="fas fa-bars"></i> MENU
+			</a>
+			<nav class="nav">
+				<p class="text-right">
+					<span class="nav-close">
+						<i class="fas fa-times"></i>
+					</span>
+				</p>
+				<ul>
+					<li><a href="#"> Cube's </a></li>
+					<li><a href="#"> Highlight </a></li>
+					<li><a href="#"> Assessments </a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<!--------- END / HEADER -------->
+
+	<!---------- START / SEARCH & ESTATISTICAS --------->
+	<section class="section">
+		<div class="search-box">
+			<header >
+				<h1> Mind Cubes</h1>
+				<p class="tagline"> Developing great minds</p>
+			</header>
+			<form name="formSearsh" method="post" action="">
+				<input type="search" name="busca" id="busca" placeholder="Pesquisar"/>
+				<button type="submit"><i class="fas fa-search"></i></button>
+			</form>
+		</div>
+
+		<div class="estatisticas">
+			<div class="estatisticas-item">
+				<span>20</span>
+				<p>Simple</p>
+			</div>
+			<div class="estatisticas-item">
+				<span>10</span>
+				<p>Professional</p>
+			</div>
+			<div class="estatisticas-item">
+				<span>15</span>
+				<p>Advanced</p>
+			</div>
+			<div class="estatisticas-item">
+				<span>30</span>
+				<p>Championship</p>
+			</div>
+		</div>
+	</section>
+	<!---------- END / SEARCH & ESTATISTICAS --------->
+
+	<!-------------- START / PRODOTOS ------------->
+	<section class="section">
+		<div class="content">
+			<header class="section-header">
+				<h1>Nossos diversos cubos!</h1>
+				<p>Temos uma diversidade de cubos para todos, de iniciantes até avançados.</p>
+			</header>
+			
+			<div class="row">
+			<!-------------- PRODOTOS 1 ------------->
+				<div class="destinos-col">
+					<div class="box">
+						<div class="box-name">
+							Iniciantes
+						</div>
+						<div class="box-cover">
+							<img src="imagens/iniciantes.jpg" alt="" />							
+						</div>
+						<div class="box-detalhes">
+							<div class="box-detalhes-info">
+								<h2>Simples e Rápidos</h2>
+								<p> 3 x 3 </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-------------- PRODOTOS 2 ------------->
+				<div class="destinos-col">
+					<div class="box">
+						<div class="box-name">
+							Profissionais
+						</div>
+						<div class="box-cover">
+							<img src="imagens/profissionais.jpg" alt="" />							
+						</div>
+						<div class="box-detalhes">
+							<div class="box-detalhes-info">
+								<h2>Cubos Magneticos</h2>
+								<p> Melhores marcas </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-------------- PRODOTOS 3 ------------->
+				<div class="destinos-col">
+					<div class="box">
+						<div class="box-name">
+							Estudos
+						</div>
+						<div class="box-cover">
+							<img src="imagens/estudos.png" alt="" />							
+						</div>
+						<div class="box-detalhes">
+							<div class="box-detalhes-info">
+								<h2> Manuais & Livros </h2>
+								<p> P/ quem quer Aprender </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-------------- PRODOTOS 4 ------------->
+				<div class="destinos-col">
+					<div class="box">
+						<div class="box-name">
+							Novos Desafios
+						</div>
+						<div class="box-cover">
+							<img src="imagens/novos-desafios.jpg" alt="" />							
+						</div>
+						<div class="box-detalhes">
+							<div class="box-detalhes-info">
+								<h2>Cubos diferenciados</h2>
+								<p> P/ quem gosta de desafios </p>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+				<!-------------- PRODOTOS 5 ------------->
+				<div class="destinos-col">
+					<div class="box">
+						<div class="box-name">
+							Decorações
+						</div>
+						<div class="box-cover">
+							<img src="imagens/decorativo.jpg" alt="" />							
+						</div>
+						<div class="box-detalhes">
+							<div class="box-detalhes-info">
+								<h2> Papel de Paredes </h2>
+								<p> Colecionaveis </p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</section>
+	<!---------- END / PRODOTOS ---------->
+		
+	<!---------- START / CARREGAR-MAIS ---------->
+	<div class="row">
+		<div class="content text-center">
+			<button class="loadmore"> CARREGAR MAIS 
+			</button>			
+		</div>
+	</div>
+	<!---------- END / CARREGAR-MAIS ---------->
+	
+	<!---------- START / PARALLAX ---------->
+	<div class="parallax">
+		<div class="co ntent">
+			<h1> Se identificou com algum puzzle? </h1>
+			<p> Agora você pode saber mais sobre os cubos e suas prefencias </p>
+			<button> SAÍBA MAIS </button>
+		</div>
+	</div>
+	<!---------- END / PARALLAX ---------->
+	
+	<!---------- START / DESTAQUES ---------->
+	<section class="section">
+		<div class="content">
+			<header class="section-header">
+				<h1> Produtos mais vendidos! </h1>
+				<p> Nossos melhores produtos com melhor a venda! </p>
+			</header>
+			<div class="row-destaques">
+				
+				<!-------------- DESTAQUE 1 ------------->
+				<div class="destaques-col">
+					<div class="box">
+						<div class="box-name">
+							GAN
+						</div>
+						<div class="box-cover">
+							<img src="imagens/destaques-1.jpg" alt="" />							
+						</div>
+						<div class="box-detalhes">
+							<div class="box-detalhes-info">
+								<h2>Simples e Rápidos</h2>
+								<p> 3 x 3 </p>
+							</div>
+						</div>
+					</div>
+				</div>				
+
+				<!-------------- DESTAQUE 2 ------------->
+				<div class="destaques-col">
+					<div class="box">
+						<div class="box-name">
+							Cubo AXIS
+						</div>
+						<div class="box-cover">
+							<img src="imagens/destaques-2.jpg" alt="" />							
+						</div>
+						<div class="box-detalhes">
+							<div class="box-detalhes-info">
+								<h2>Novos desafios</h2>
+								<p> 3 x 3 </p>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-------------- DESTAQUE 3 ------------->
+				<div class="destaques-col">
+					<div class="box">
+						<div class="box-name">
+							Qiyi Magnetico 
+						</div>
+						<div class="box-cover">
+							<img src="imagens/destaques-3.jpg" alt="" />							
+						</div>
+						<div class="box-detalhes">
+							<div class="box-detalhes-info">
+								<h2> Profissionais </h2>
+								<p> 3 x 3 </p>
+							</div>
+						</div>
+					</div>
+				</div>				
+
+				<!-------------- DESTAQUE 4 ------------->
+				<div class="destaques-col">
+					<div class="box">
+						<div class="box-name">
+							Kit de Cubos 
+						</div>
+						<div class="box-cover">
+							<img src="imagens/destaques-4.jpg" alt="" />							
+						</div>
+						<div class="box-detalhes">
+							<div class="box-detalhes-info">
+								<h2> Muitas opções </h2>
+								<p> Variados </p>
+							</div>
+						</div>
+					</div>
+				</div>			
+			</div>
+			<!---------- START / CARREGAR-MAIS ---------->
+			<div class="row">
+				<div class="content text-center">
+					<button class="loadmore"> CARREGAR MAIS 
+					</button>			
+				</div>
+			</div>
+			<!---------- END / CARREGAR-MAIS ---------->
+		</div>
+	</section>
+	<!---------- END / DESTAQUES ---------->
+
+	<!---------- START / TESTEMUNHAS ---------->
+
+	<section class="section testemunhas">
+		<div class="content">
+			<header class="section-header">
+				<h1> Nossos Clientes </h1>
+				<p> Alguns dos nossos melhores clientes falando sobre nós! </p>
+			</header>
+			<!---------- TESTEMUNHA 1 ---------->
+
+			<article class="testemunhas-artigo">
+				<h1> Respeito ao consumidor e o cumprimento do prazo da entrega. Quanto aos produtos, de excelência e vieram super bem embalados! </h1>
+				<span class="image"><img src="imagens/testemunha-1.jpg"></iframe></span>
+
+				<p>				
+					<span class="name">Renan Cerper</span>
+					<span>CEO - Cuber Brasil</span>				
+				</p>
+
+			</article>
+			<!---------- TESTEMUNHA 2 ---------->
+
+			<article class="testemunhas-artigo">
+				<h1> Respeito ao consumidor e o cumprimento do prazo da entrega. Quanto aos produtos, de excelência e vieram super bem embalados! </h1>
+				<span class="image"><img src="imagens/testemunha-2.jpg"></iframe></span>
+
+				<p>				
+					<span class="name">Ricardo Noval</span>
+					<span>Profissional de Cube</span>				
+				</p>
+
+			</article>
+			<!---------- TESTEMUNHA 3 ---------->
+
+			<article class="testemunhas-artigo">
+				<h1> Respeito ao consumidor e o cumprimento do prazo da entrega. Quanto aos produtos, de excelência e vieram super bem embalados! </h1>
+				<span class="image"><img src="imagens/testemunha-3.jpg"></iframe></span>
+
+				<p>				
+					<span class="name">Richard Blend</span>
+					<span>Campeão de Cubo Nacional</span>				
+				</p>
+
+			</article>
+
+		</div>
+	</section>
+	<!---------- END / TESTEMUNHAS ---------->
+
+	<!---------- START / FOOTER ---------->
+	
+	<footer class="footer">
+		<div class="content">
+			
+			<div class="footer-col">
+				
+				<h1>SOBRE NÓS</h1>
+				<p> Loja especializada em puzzles profissionais criada por Renan Cerpe em 2007. Mais de 300 modelos. Cubo Mágico Profissional e diversos acessórios exclusivos </p>
+				
+			</div>
+			<div class="footer-col">
+				
+				<h1>+ LINKS</h1>
+				<ul class="footer-col-links">
+					<li><a href="#"> Contatos </li>
+					<li><a href="#"> Informações </li>
+					<li><a href="#"> Duvidas Frequentes </li>
+					<li><a href="#"> Patrocinios </li>
+				</ul>								
+			</div>
+			
+			<div class="footer-col">
+				<h1>SOCIAL</h1>
+
+				<ul class="footer-col-social">
+					<li><a href="#"><i class="fa-brands fa-twitter"></i> Twitter</li>
+					<li><a href="#"><i class="fa-brands fa-facebook-f"></i> Facebook</li>
+					<li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</li>
+				</ul>				
+			</div>
+
+			<div class="row text-center footer-autorais">
+				Todos os direitos reservados
+			</div>
+		</div>
+	</footer>
+
+	<!---------- END / FOOTER ---------->
+
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+		<script src="js/script.js"></script>
+		<script src="https://kit.fontawesome.com/01e44e772c.js" crossorigin="anonymous"></script>
+  </body>
+</html>
+	
+
+	
+
+
+
