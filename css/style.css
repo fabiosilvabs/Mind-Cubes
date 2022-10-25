@@ -6,7 +6,7 @@ body { font-family: 'Open Sans', sans-serif; font-size: inherit;}
 input, select, iframe, button{ border: none; font-family: 'Open Sans', sans-serif; }
 h1, h2, h3{margin: 0; padding: 0;}
 ol, ul {list-style: none; font-size: 22px; margin: 10px;}
-a{text-decoration: none; color: inherit;}
+a {text-decoration: none; color: inherit;}
 a:hover{color: #f9014d; transition: all .3s ease-in-out;}
 img{ max-width: 100%; border: none;}
 
@@ -169,7 +169,12 @@ img{ max-width: 100%; border: none;}
 }
 
 /*------ SEARCH E ESTATISTICAS -------*/
-
+.header-titulo {
+	background: rgba(255, 255, 2555, 0.9);
+    width: 50%;
+    margin-left: 25%;
+    border-radius: 30px;
+}
 .search-box{
 	text-align: center;
 	color: #000000;
@@ -180,12 +185,13 @@ img{ max-width: 100%; border: none;}
 	background-attachment: fixed;
 }
 .search-box h1 {
-	font-size: 37px;
+	font-size: 70px;
 	font-weight: bold;
 }
 .search-box .tagline{
 	font-size: 26px;
 }
+
 .search-box form {
 	position: relative;
 	display: inline-block;
@@ -341,6 +347,9 @@ img{ max-width: 100%; border: none;}
 	color: #000;
 	font-weight: bold;
 }
+.testemunha-titulo {
+	color: #fff;
+}
 
 /*-------- FOOTER ---------*/
 
@@ -352,9 +361,11 @@ img{ max-width: 100%; border: none;}
 	padding: 30px 0;
 }
 .footer-col {
+	display: inline-block;
+    margin-right: 25px;
 	width: 30%;
-	float: left;
-	margin-bottom: 30px;
+	float: right;
+	margin-bottom: 5px;
 }
 .footer-col h1 {
 	font-size: 20px;
@@ -363,7 +374,7 @@ img{ max-width: 100%; border: none;}
 }
 .footer-col-links li {
 	padding: 10px 0;
-	width: 70%;
+	width: 65%;
 	font-size: 15px;
 }
 .footer-col-links li:not(:last-of-type){
@@ -436,6 +447,20 @@ img{ max-width: 100%; border: none;}
 		padding-bottom: 15px;
 		border-bottom: 1px solid #CCC;
 	}
+	/*----- FOOTER ------*/
+
+	.footer-col{
+		width: 45%;
+	}
+	.footer-col:nth-child(2){
+		width: 30%;
+		margin-left: 5%;
+	}
+	.footer-col:nth-child(3){
+		width: 15%;
+		float: right;		
+	}
+	
 }
 
 /*---------- BREAKPOINTS MINIMOS -----------*/
@@ -519,22 +544,9 @@ img{ max-width: 100%; border: none;}
 		margin-right: 0;
 	}
 
-	/*----- FOOTER ------*/
-
-	.footer-col{
-		width: 45%;
-	}
-	.footer-col:nth-child(2){
-		width: 30%;
-		margin-left: 5%;
-	}
-	.footer-col:nth-child(3){
-		width: 15%;
-		float: right;		
-	}
+	
 }
 
-}
 @media (min-width: 900px) {
 	
 	.destinos-col:nth-child(odd),
@@ -548,7 +560,8 @@ img{ max-width: 100%; border: none;}
 	.destinos-col:first-child {
 		width: 66%;
 	}
-	
+
+
 }
 
 /*----------- AUXILIARES ------------*/
